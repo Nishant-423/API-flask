@@ -1,6 +1,5 @@
 from flask import Flask
 from flask_restful import Resource, Api, reqparse
-import pandas as pd
 import requests
 import pyodbc 
 conn = pyodbc.connect('Driver={SQL Server};'
